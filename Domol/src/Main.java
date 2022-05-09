@@ -18,7 +18,7 @@ public class Main {
         //bekérés
         Scanner be = new Scanner(System.in);
         System.out.println("Adjon meg egy szöveget:");
-        String szoveg = be.next();
+        String szoveg = be.nextLine();
 
         //hogy mindig legyen end of file jel
         if (szoveg.charAt(szoveg.length() - 1) != '$')
